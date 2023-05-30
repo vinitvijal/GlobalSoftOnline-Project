@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    min-height: 100vh;
+    background-image: url('static/all-bong-L2oedF1AsH8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: brightness(0.9) saturate(1.5);
+
+
+}
+
+header{
+    /* padding: 0 16px 16px 16px; */
+    background-color: white;
+}
