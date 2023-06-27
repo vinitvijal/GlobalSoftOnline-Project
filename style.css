@@ -16,6 +16,30 @@ body {
 }
 
 header{
-    /* padding: 0 16px 16px 16px; */
+    /* stick at top */
+    position: sticky;
+    top: 0;
+    z-index: 10;
     background-color: white;
+}
+
+.main {
+
+   
+    height: 100vh;
+}
+
+.hero {
+    /* background blur  */
+    background-color: rgba(244, 127, 31, 0.463);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+
+.foot {
+    /* white backgroud */
+    width: 100vw;
+    background-color: white;
+
+
 }
